@@ -1,0 +1,18 @@
+database
+   table
+      fields, columns, πεδία
+   γραμμές, εγγραφές, records
+
+
+sql queries (sql ερωτήματα)
+INSERT INTO `newsletter` (`email`) VALUES ('about@example.gr');
+
+INSERT INTO `user` 
+(`first_name`, `last_name`, `email`, `phone`) 
+VALUES 
+('margarita', 'eleftheriou', 'mar@example.gr', '1234567890');
+
+
+INSERT INTO `user` 
+(`first_name`, `last_name`, `email`, `phone`) 
+VALUES ('manos', 'manopoulos', 'man@test.gr', '9876543210');
