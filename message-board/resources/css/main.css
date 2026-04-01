@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-size: 18px;
+}
+
+header {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 1px;
+}
+header nav a:hover {
+    background-color: rgb(53, 14, 20);
+    color: white;
+}
+
+main {
+    background-color: lightyellow;
+    min-height: 300px;
+}
+
+p.error {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    margin: 10px 0;
+}
+p.success {
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.users-table {
+    width: 800px;
+    margin: auto;
+
+}
+.users-table tr td {
+    padding: 5px;
+    margin: 2px;
+    background-color: lemonchiffon;
+}
+.users-table tr td img {
+    height: 30px;
+}
+
+form {
+    background-color: rgb(199, 211, 219);
+    width: 250px;
+    padding: 10px;
+    margin:auto;
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 2px;
+    border: steelblue solid 1px;
+    color: mediumblue;
+}
+
+#btns {
+    margin-top: 20px;
+}
+
+#btns input {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.txt {
+    color: mediumblue;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+form h2 {
+    color: mediumblue;
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: mediumslateblue solid 1px;
+}
+
+footer {
+    background-color: lightgray;
+    height: 100px;
+}
